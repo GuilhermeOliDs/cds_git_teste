@@ -8,7 +8,10 @@ def gether_data():
 
 
 def main():
-    print(2*2)
+    n1, n2 = gether_data()
+
+    print(n1**n2)
+    
     return None
 
 
